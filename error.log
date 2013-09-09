@@ -1,0 +1,26 @@
+[Wed Sep 04 17:35:22 2013] [crit] [client 127.0.0.1] (13)Permission denied: /var/www/mantis/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable
+[Wed Sep 04 17:35:22 2013] [crit] [client 127.0.0.1] (13)Permission denied: /var/www/mantis/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable
+[Wed Sep 04 17:35:51 2013] [error] [client 127.0.0.1] File does not exist: /var/www/mantis/favicon.ico
+[Wed Sep 04 17:36:57 2013] [error] [client 127.0.0.1] File does not exist: /var/www/mantis/favicon.ico
+[Mon Sep 09 10:08:02 2013] [error] [client 127.0.0.1] File does not exist: /var/www/mantis/favicon.ico
+[Mon Sep 09 11:36:53 2013] [error] [client 127.0.0.1] File does not exist: /var/www/mantis/favicon.ico
+[Mon Sep 09 13:04:48 2013] [error] [client 127.0.0.1] PHP Notice:  Use of undefined constant FILTER_POSITION_RIGHT - assumed 'FILTER_POSITION_RIGHT' in /var/www/mantis/config_defaults_inc.php on line 899, referer: http://mantis.dev/view_all_bug_page.php
+[Mon Sep 09 13:04:48 2013] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://mantis.dev/view_all_bug_page.php
+[Mon Sep 09 13:04:48 2013] [error] [client 127.0.0.1] PHP   1. {main}() /var/www/mantis/view_all_bug_page.php:0, referer: http://mantis.dev/view_all_bug_page.php
+[Mon Sep 09 13:04:48 2013] [error] [client 127.0.0.1] PHP   2. require_once() /var/www/mantis/view_all_bug_page.php:26, referer: http://mantis.dev/view_all_bug_page.php
+[Mon Sep 09 13:04:48 2013] [error] [client 127.0.0.1] PHP   3. require_once() /var/www/mantis/core.php:62, referer: http://mantis.dev/view_all_bug_page.php
+[Mon Sep 09 13:04:49 2013] [error] [client 127.0.0.1] PHP Notice:  Use of undefined constant FILTER_POSITION_RIGHT - assumed 'FILTER_POSITION_RIGHT' in /var/www/mantis/config_defaults_inc.php on line 899, referer: http://mantis.dev/view_all_bug_page.php
+[Mon Sep 09 13:04:49 2013] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://mantis.dev/view_all_bug_page.php
+[Mon Sep 09 13:04:49 2013] [error] [client 127.0.0.1] PHP   1. {main}() /var/www/mantis/view_all_bug_page.php:0, referer: http://mantis.dev/view_all_bug_page.php
+[Mon Sep 09 13:04:49 2013] [error] [client 127.0.0.1] PHP   2. require_once() /var/www/mantis/view_all_bug_page.php:26, referer: http://mantis.dev/view_all_bug_page.php
+[Mon Sep 09 13:04:49 2013] [error] [client 127.0.0.1] PHP   3. require_once() /var/www/mantis/core.php:62, referer: http://mantis.dev/view_all_bug_page.php
+[Mon Sep 09 13:04:49 2013] [error] [client 127.0.0.1] PHP Notice:  Use of undefined constant FILTER_POSITION_RIGHT - assumed 'FILTER_POSITION_RIGHT' in /var/www/mantis/config_defaults_inc.php on line 899, referer: http://mantis.dev/view_all_bug_page.php
+[Mon Sep 09 13:04:49 2013] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://mantis.dev/view_all_bug_page.php
+[Mon Sep 09 13:04:49 2013] [error] [client 127.0.0.1] PHP   1. {main}() /var/www/mantis/view_all_bug_page.php:0, referer: http://mantis.dev/view_all_bug_page.php
+[Mon Sep 09 13:04:49 2013] [error] [client 127.0.0.1] PHP   2. require_once() /var/www/mantis/view_all_bug_page.php:26, referer: http://mantis.dev/view_all_bug_page.php
+[Mon Sep 09 13:04:49 2013] [error] [client 127.0.0.1] PHP   3. require_once() /var/www/mantis/core.php:62, referer: http://mantis.dev/view_all_bug_page.php
+[Mon Sep 09 13:04:50 2013] [error] [client 127.0.0.1] PHP Notice:  Use of undefined constant FILTER_POSITION_RIGHT - assumed 'FILTER_POSITION_RIGHT' in /var/www/mantis/config_defaults_inc.php on line 899, referer: http://mantis.dev/view_all_bug_page.php
+[Mon Sep 09 13:04:50 2013] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://mantis.dev/view_all_bug_page.php
+[Mon Sep 09 13:04:50 2013] [error] [client 127.0.0.1] PHP   1. {main}() /var/www/mantis/view_all_bug_page.php:0, referer: http://mantis.dev/view_all_bug_page.php
+[Mon Sep 09 13:04:50 2013] [error] [client 127.0.0.1] PHP   2. require_once() /var/www/mantis/view_all_bug_page.php:26, referer: http://mantis.dev/view_all_bug_page.php
+[Mon Sep 09 13:04:50 2013] [error] [client 127.0.0.1] PHP   3. require_once() /var/www/mantis/core.php:62, referer: http://mantis.dev/view_all_bug_page.php
