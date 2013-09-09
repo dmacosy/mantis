@@ -136,9 +136,9 @@ class CSSFrameworkPlugin extends MantisPlugin{
             }
         }
         # Home
-        $page = 'main_page.php';
-        $class = ( preg_match( '/'.str_replace('.php', '', $page).'/', $_SERVER['REQUEST_URI'] ) ) ? 'class="active"' : NULL;
-        $t_menu_options[] = '<li '.$class.'><a href="' . helper_mantis_url( $page ). '">' . lang_get( 'main_link' ) . '</a></li>';
+//        $page = 'main_page.php';
+//        $class = ( preg_match( '/'.str_replace('.php', '', $page).'/', $_SERVER['REQUEST_URI'] ) ) ? 'class="active"' : NULL;
+//        $t_menu_options[] = '<li '.$class.'><a href="' . helper_mantis_url( $page ). '">' . lang_get( 'main_link' ) . '</a></li>';
 
         # My View
         $page = 'my_view_page.php';
@@ -172,26 +172,26 @@ class CSSFrameworkPlugin extends MantisPlugin{
         }
 
 
-        # Changelog Page
-        if( access_has_project_level( config_get( 'view_changelog_threshold' ) ) ) {
-            $page = 'changelog_page.php';
-            $class = ( preg_match( '/'.str_replace('.php', '', $page).'/', $_SERVER['REQUEST_URI'] ) ) ? 'class="active"' : NULL;
-            $t_menu_options[] = '<li '.$class.'><a href="' . helper_mantis_url( $page ) . '">' . lang_get( 'changelog_link' ) . '</a></li>';
-        }
+//        # Changelog Page
+//        if( access_has_project_level( config_get( 'view_changelog_threshold' ) ) ) {
+//            $page = 'changelog_page.php';
+//            $class = ( preg_match( '/'.str_replace('.php', '', $page).'/', $_SERVER['REQUEST_URI'] ) ) ? 'class="active"' : NULL;
+//            $t_menu_options[] = '<li '.$class.'><a href="' . helper_mantis_url( $page ) . '">' . lang_get( 'changelog_link' ) . '</a></li>';
+//        }
 
         # Roadmap Page
-        if( access_has_project_level( config_get( 'roadmap_view_threshold' ) ) ) {
-            $page = 'roadmap_page.php';
-            $class = ( preg_match( '/'.str_replace('.php', '', $page).'/', $_SERVER['REQUEST_URI'] ) ) ? 'class="active"' : NULL;
-            $t_menu_options[] = '<li '.$class.'><a href="' . helper_mantis_url( $page ) . '">' . lang_get( 'roadmap_link' ) . '</a></li>';
-        }
+//        if( access_has_project_level( config_get( 'roadmap_view_threshold' ) ) ) {
+//            $page = 'roadmap_page.php';
+//            $class = ( preg_match( '/'.str_replace('.php', '', $page).'/', $_SERVER['REQUEST_URI'] ) ) ? 'class="active"' : NULL;
+//            $t_menu_options[] = '<li '.$class.'><a href="' . helper_mantis_url( $page ) . '">' . lang_get( 'roadmap_link' ) . '</a></li>';
+//        }
 
-        # Summary Page
-        if( access_has_project_level( config_get( 'view_summary_threshold' ) ) ) {
-            $page = 'summary_page.php';
-            $class = ( preg_match( '/'.str_replace('.php', '', $page).'/', $_SERVER['REQUEST_URI'] ) ) ? 'class="active"' : NULL;
-            $t_menu_options[] = '<li '.$class.'><a href="' . helper_mantis_url( $page ) . '">' . lang_get( 'summary_link' ) . '</a></li>';
-        }
+//        # Summary Page
+//        if( access_has_project_level( config_get( 'view_summary_threshold' ) ) ) {
+//            $page = 'summary_page.php';
+//            $class = ( preg_match( '/'.str_replace('.php', '', $page).'/', $_SERVER['REQUEST_URI'] ) ) ? 'class="active"' : NULL;
+//            $t_menu_options[] = '<li '.$class.'><a href="' . helper_mantis_url( $page ) . '">' . lang_get( 'summary_link' ) . '</a></li>';
+//        }
 
         # News Page
         if ( news_is_enabled() && access_has_project_level( config_get( 'manage_news_threshold' ) ) ) {
@@ -260,10 +260,11 @@ class CSSFrameworkPlugin extends MantisPlugin{
         # Logout (no if anonymously logged in)
         if( !current_user_is_anonymous() ) {
             $t_menu_options[] = '<a href="' . helper_mantis_url( 'logout_page.php">' ) .'<i class="icon-off"></i> '. lang_get( 'logout_link' ) . '</a>';
+            echo '<li>'.implode( $t_menu_options, ' </li> <li> ' ). '</li>';
         }
 
         
-        echo '<li>'.implode( $t_menu_options, ' </li> <li> ' ). '</li>';
+        //echo '<li>'.implode( $t_menu_options, ' </li> <li> ' ). '</li>';
 
         echo '</ul>';
     }
