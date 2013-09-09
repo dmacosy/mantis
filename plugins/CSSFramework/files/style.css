@@ -1,0 +1,37 @@
+.category {
+	background-color: silver;
+}
+
+.bracket-link {
+	display: inline-block;
+}
+
+.navbar div {
+	padding : 0px 20px;
+}
+
+.navbar form {
+	margin: 0px;
+}
+
+div {
+	padding: 0px;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+td {
+	vertical-align: top;
+}
+
+ul {
+	margin-left: 0px;
+	padding-left: 20px;
+	list-style-type: square;
+}
+
+body {
+	padding-top : 60px;
+}
