@@ -176,7 +176,7 @@
 
 <?php
 	echo '<br /><div align="center">';
-	print_signup_link();
+	//print_signup_link();
 	echo '&#160;';
 	print_lost_password_link();
 	echo '</div>';

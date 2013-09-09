@@ -4,9 +4,10 @@
     <list default="true" id="5e374c4c-4bc1-4f98-9a5d-6db77afd229e" name="Default" comment="" />
     <ignored path="mantis.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/a.dummy" changelist="5e374c4c-4bc1-4f98-9a5d-6db77afd229e" time="1378737455799" ignored="false" />
-    <file path="/config_defaults_inc.php" changelist="5e374c4c-4bc1-4f98-9a5d-6db77afd229e" time="1378750096977" ignored="false" />
+    <file path="/a.dummy" changelist="5e374c4c-4bc1-4f98-9a5d-6db77afd229e" time="1378754906905" ignored="false" />
+    <file path="/config_defaults_inc.php" changelist="5e374c4c-4bc1-4f98-9a5d-6db77afd229e" time="1378753785409" ignored="false" />
     <file path="/bug_report_page.php" changelist="5e374c4c-4bc1-4f98-9a5d-6db77afd229e" time="1378747516367" ignored="false" />
+    <file path="/my_view_page.php" changelist="5e374c4c-4bc1-4f98-9a5d-6db77afd229e" time="1378751718313" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,22 +27,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="html_api.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/html_api.php">
+      <file leaf-file-name="my_view_page.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my_view_page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="744" column="8" selection-start="22318" selection-end="22986" vertical-scroll-proportion="-0.625">
-              <folding>
-                <marker date="1378736245327" expanded="true" signature="9492:9506" placeholder="{...}" />
-                <marker date="1378736245327" expanded="false" signature="20048:20060" placeholder="..." />
-              </folding>
+            <state line="89" column="28" selection-start="2594" selection-end="2595" vertical-scroll-proportion="-3.86">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bug_view_inc.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bug_view_inc.php">
+      <file leaf-file-name="config_inc.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config_inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="318" column="8" selection-start="13239" selection-end="13239" vertical-scroll-proportion="0.87147886">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -50,37 +48,70 @@
       <file leaf-file-name="config_defaults_inc.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config_defaults_inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3676" column="34" selection-start="109191" selection-end="109191" vertical-scroll-proportion="78.22">
+            <state line="898" column="43" selection-start="28213" selection-end="28232" vertical-scroll-proportion="-3.3653846">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="administration_guide.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/doc/en/administration_guide.txt">
-          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-            <state />
-          </provider>
+      <file leaf-file-name="view_all_inc.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view_all_inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2759" column="24" selection-start="114230" selection-end="114244" vertical-scroll-proportion="7.275862">
+            <state line="79" column="48" selection-start="2377" selection-end="2391" vertical-scroll-proportion="-12.583333">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="view.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view.php">
+      <file leaf-file-name="manage_tags_page.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manage_tags_page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="0" selection-start="1201" selection-end="1201" vertical-scroll-proportion="-19.916666">
+            <state line="100" column="5" selection-start="2638" selection-end="2638" vertical-scroll-proportion="51.75">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bug_view_page.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bug_view_page.php">
+      <file leaf-file-name="config_filter_defaults_inc.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config_filter_defaults_inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="94" column="61" selection-start="4919" selection-end="4919" vertical-scroll-proportion="-20.541666">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="access.log" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/access.log">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="135" column="49" selection-start="36967" selection-end="36967" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="my_view_inc.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/my_view_inc.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="79" column="31" selection-start="2284" selection-end="2284" vertical-scroll-proportion="0.7641509">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="manage_user_page.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manage_user_page.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="138" column="12" selection-start="4321" selection-end="4321" vertical-scroll-proportion="-7.875">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="filter_api.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/filter_api.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2535" column="0" selection-start="93808" selection-end="93808" vertical-scroll-proportion="-1460.625">
               <folding />
             </state>
           </provider>
@@ -96,14 +127,18 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/login_page.php" />
         <option value="$PROJECT_DIR$/config_inc.php" />
         <option value="$PROJECT_DIR$/core/html_api.php" />
         <option value="$PROJECT_DIR$/bug_update_advanced_page.php" />
         <option value="$PROJECT_DIR$/bug_report_page.php" />
         <option value="$PROJECT_DIR$/bug_report.php" />
-        <option value="$PROJECT_DIR$/config_defaults_inc.php" />
         <option value="$PROJECT_DIR$/bug_view_inc.php" />
+        <option value="$PROJECT_DIR$/my_view_page.php" />
+        <option value="$PROJECT_DIR$/my_view_inc.php" />
+        <option value="$PROJECT_DIR$/login_page.php" />
+        <option value="$PROJECT_DIR$/lost_pwd_page.php" />
+        <option value="$PROJECT_DIR$/config_defaults_inc.php" />
+        <option value="$PROJECT_DIR$/core/filter_api.php" />
       </list>
     </option>
   </component>
@@ -274,83 +309,16 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lang/strings_english.txt">
+    <entry file="file://$PROJECT_DIR$/lost_pwd_page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1011" column="16" selection-start="51268" selection-end="51285" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logout_page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bug_reminder_page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="15" selection-start="2058" selection-end="2058" vertical-scroll-proportion="0.0">
+        <state line="109" column="4" selection-start="2866" selection-end="2866" vertical-scroll-proportion="0.6108491">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bug_report.php">
+    <entry file="file://$PROJECT_DIR$/bug_view_inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="282" column="19" selection-start="12856" selection-end="12856" vertical-scroll-proportion="-34.083332">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login_page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="26" selection-start="1059" selection-end="1066" vertical-scroll-proportion="-0.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config_inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="248" selection-end="248" vertical-scroll-proportion="0.2762431">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bug_update_advanced_page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="589" column="2" selection-start="18879" selection-end="18879" vertical-scroll-proportion="0.027027028">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bug_report_page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="630" column="19" selection-start="27228" selection-end="27228" vertical-scroll-proportion="1.3693694">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/html_api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="744" column="8" selection-start="22318" selection-end="22986" vertical-scroll-proportion="-0.625">
-          <folding>
-            <marker date="1378736245327" expanded="true" signature="9492:9506" placeholder="{...}" />
-            <marker date="1378736245327" expanded="false" signature="20048:20060" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config_defaults_inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3676" column="34" selection-start="109191" selection-end="109191" vertical-scroll-proportion="78.22">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/csv_api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="329" column="28" selection-start="8761" selection-end="8761" vertical-scroll-proportion="0.02640845">
+        <state line="368" column="37" selection-start="14250" selection-end="14250" vertical-scroll-proportion="-0.68728524">
           <folding />
         </state>
       </provider>
@@ -360,7 +328,21 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2759" column="24" selection-start="114230" selection-end="114244" vertical-scroll-proportion="7.275862">
+        <state line="3512" column="38" selection-start="144853" selection-end="144853" vertical-scroll-proportion="0.21543778">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lang/strings_english.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="709" column="18" selection-start="38536" selection-end="38536" vertical-scroll-proportion="0.2081448">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="0" selection-start="1201" selection-end="1201" vertical-scroll-proportion="0.58419245">
           <folding />
         </state>
       </provider>
@@ -372,16 +354,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view.php">
+    <entry file="file://$PROJECT_DIR$/my_view_page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="1201" selection-end="1201" vertical-scroll-proportion="-19.916666">
+        <state line="89" column="28" selection-start="2594" selection-end="2595" vertical-scroll-proportion="-3.86">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bug_view_inc.php">
+    <entry file="file://$PROJECT_DIR$/access.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="318" column="8" selection-start="13239" selection-end="13239" vertical-scroll-proportion="0.87147886">
+        <state line="135" column="49" selection-start="36967" selection-end="36967" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/filter_api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2535" column="0" selection-start="93808" selection-end="93808" vertical-scroll-proportion="-1460.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config_filter_defaults_inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="94" column="61" selection-start="4919" selection-end="4919" vertical-scroll-proportion="-20.541666">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config_inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config_defaults_inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="898" column="43" selection-start="28213" selection-end="28232" vertical-scroll-proportion="-3.3653846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view_all_inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="48" selection-start="2377" selection-end="2391" vertical-scroll-proportion="-12.583333">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage_tags_page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="100" column="5" selection-start="2638" selection-end="2638" vertical-scroll-proportion="51.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage_user_page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="138" column="12" selection-start="4321" selection-end="4321" vertical-scroll-proportion="-7.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_view_inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="31" selection-start="2284" selection-end="2284" vertical-scroll-proportion="0.7641509">
           <folding />
         </state>
       </provider>

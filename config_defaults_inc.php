@@ -241,7 +241,7 @@
 	 * @see $g_send_reset_password
 	 * @global int $g_allow_signup
 	 */
-	$g_allow_signup			= ON;
+	$g_allow_signup			= OFF;
 
 	/**
 	 * Max. attempts to login using a wrong password before lock the account.
@@ -317,7 +317,7 @@
 	 * Administrator Email address
 	 * @global string $g_administrator_email
 	 */
-	$g_administrator_email	= 'administrator@example.com';
+	$g_administrator_email	= 'dedric@blueacorn.com';
 
 	/**
 	 * Webmaster email
@@ -725,7 +725,7 @@
 	 * browser window title
 	 * @global string $g_window_title
 	 */
-	$g_window_title			= 'MantisBT';
+	$g_window_title			= 'Blueacorn';
 
 	/**
 	 * title at top of html page (empty by default, since there is a logo now)
@@ -794,7 +794,7 @@
 	 * This is in the view all pages
 	 * @global int $g_show_assigned_names
 	 */
-	$g_show_assigned_names	= ON;
+	$g_show_assigned_names	= OFF;
 
 	/**
 	 * show priority as icon
@@ -850,7 +850,7 @@
 	 * @global array $g_print_issues_page_columns
 	 */
 	//$g_print_issues_page_columns = array ( 'selection', 'priority', 'id', 'sponsorship_total', 'bugnotes_count', 'attachment_count', 'category_id', 'severity', 'status', 'last_updated', 'summary' );
-    $g_view_issues_page_columns = array ( 'selection', 'id', 'status', 'last_updated', 'summary','attachment_count' );
+    $g_print_issues_page_columns = array ( 'selection', 'id', 'status', 'last_updated', 'summary','attachment_count' );
 
 	/**
 	 * The default columns to be included in the CSV export.
