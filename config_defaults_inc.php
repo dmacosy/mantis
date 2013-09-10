@@ -2903,7 +2903,7 @@ $g_filter_custom_fields_per_row = 8;
  *
  * @global int $g_view_filters
  */
-$g_view_filters = SIMPLE_DEFAULT;
+$g_view_filters = SIMPLE_ONLY;
 
 /**
  * This switch enables the use of xmlhttprequest protocol to speed up the filter display.
