@@ -158,11 +158,11 @@ class CSSFrameworkPlugin extends MantisPlugin{
         }
 
         # Project Documentation Page
-        if( ON == config_get( 'enable_project_documentation' ) ) {
-            $page = 'proj_doc_page.php';
-            $class = ( preg_match( '/'.str_replace('.php', '', $page).'/', $_SERVER['REQUEST_URI'] ) ) ? 'class="active"' : NULL;
-            $t_menu_options[] = '<li '.$class.'><a href="' . helper_mantis_url( $page ) . '">' . lang_get( 'docs_link' ) . '</a></li>';
-        }
+//        if( ON == config_get( 'enable_project_documentation' ) ) {
+//            $page = 'proj_doc_page.php';
+//            $class = ( preg_match( '/'.str_replace('.php', '', $page).'/', $_SERVER['REQUEST_URI'] ) ) ? 'class="active"' : NULL;
+//            $t_menu_options[] = '<li '.$class.'><a href="' . helper_mantis_url( $page ) . '">' . lang_get( 'docs_link' ) . '</a></li>';
+//        }
 
         # Project Wiki
         if( config_get_global( 'wiki_enable' ) == ON ) {
@@ -172,7 +172,7 @@ class CSSFrameworkPlugin extends MantisPlugin{
         }
 
 
-//        # Changelog Page
+        # Changelog Page
 //        if( access_has_project_level( config_get( 'view_changelog_threshold' ) ) ) {
 //            $page = 'changelog_page.php';
 //            $class = ( preg_match( '/'.str_replace('.php', '', $page).'/', $_SERVER['REQUEST_URI'] ) ) ? 'class="active"' : NULL;
@@ -186,7 +186,7 @@ class CSSFrameworkPlugin extends MantisPlugin{
 //            $t_menu_options[] = '<li '.$class.'><a href="' . helper_mantis_url( $page ) . '">' . lang_get( 'roadmap_link' ) . '</a></li>';
 //        }
 
-//        # Summary Page
+        # Summary Page
 //        if( access_has_project_level( config_get( 'view_summary_threshold' ) ) ) {
 //            $page = 'summary_page.php';
 //            $class = ( preg_match( '/'.str_replace('.php', '', $page).'/', $_SERVER['REQUEST_URI'] ) ) ? 'class="active"' : NULL;
@@ -260,11 +260,10 @@ class CSSFrameworkPlugin extends MantisPlugin{
         # Logout (no if anonymously logged in)
         if( !current_user_is_anonymous() ) {
             $t_menu_options[] = '<a href="' . helper_mantis_url( 'logout_page.php">' ) .'<i class="icon-off"></i> '. lang_get( 'logout_link' ) . '</a>';
-            echo '<li>'.implode( $t_menu_options, ' </li> <li> ' ). '</li>';
         }
 
         
-        //echo '<li>'.implode( $t_menu_options, ' </li> <li> ' ). '</li>';
+        echo '<li>'.implode( $t_menu_options, ' </li> <li> ' ). '</li>';
 
         echo '</ul>';
     }
