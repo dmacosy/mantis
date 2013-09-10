@@ -260,10 +260,11 @@ class CSSFrameworkPlugin extends MantisPlugin{
         # Logout (no if anonymously logged in)
         if( !current_user_is_anonymous() ) {
             $t_menu_options[] = '<a href="' . helper_mantis_url( 'logout_page.php">' ) .'<i class="icon-off"></i> '. lang_get( 'logout_link' ) . '</a>';
+            echo '<li>'.implode( $t_menu_options, ' </li> <li> ' ). '</li>';
         }
 
         
-        echo '<li>'.implode( $t_menu_options, ' </li> <li> ' ). '</li>';
+        //echo '<li>'.implode( $t_menu_options, ' </li> <li> ' ). '</li>';
 
         echo '</ul>';
     }
