@@ -55,7 +55,9 @@ jQuery(function($){
 		$("td.category:contains('Note')").attr('width', '15%').next().attr('width', '85%');
 
 		$('#filter_open').find('a').css({
-			'color' : 'blue'
+			'color' : 'blue',
+            'width' : '100px',
+            'float' : 'left'
 //			'font-weight' : 'bold'
 		});
 

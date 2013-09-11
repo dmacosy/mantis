@@ -30,3 +30,40 @@
 [Mon Sep 09 16:47:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/mantis/favicon.ico
 [Tue Sep 10 09:12:51 2013] [error] [client 127.0.0.1] File does not exist: /var/www/mantis/images/blueacorn_logo.png  border=, referer: http://mantis.dev/my_view_page.php
 [Tue Sep 10 09:13:01 2013] [error] [client 127.0.0.1] File does not exist: /var/www/mantis/images/blueacorn_logo.png alt=, referer: http://mantis.dev/my_view_page.php
+[Wed Sep 11 09:57:50 2013] [error] [client 127.0.0.1] File does not exist: /var/www/mantis/favicon.ico
+[Wed Sep 11 10:11:53 2013] [error] [client 127.0.0.1] File does not exist: /var/www/mantis/favicon.ico
+[Wed Sep 11 11:19:18 2013] [error] [client 127.0.0.1] File does not exist: /var/www/mantis/favicon.ico
+[Wed Sep 11 11:49:46 2013] [error] [client 127.0.0.1] File does not exist: /var/www/mantis/favicon.ico
+[Wed Sep 11 13:19:51 2013] [error] [client 127.0.0.1] PHP Parse error:  syntax error, unexpected end of file in /var/www/mantis/core/filter_api.php on line 3934, referer: http://mantis.dev/view_all_bug_page.php?page_number=1
+[Wed Sep 11 13:19:51 2013] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://mantis.dev/view_all_bug_page.php?page_number=1
+[Wed Sep 11 13:19:51 2013] [error] [client 127.0.0.1] PHP   1. {main}() /var/www/mantis/view_all_bug_page.php:0, referer: http://mantis.dev/view_all_bug_page.php?page_number=1
+[Wed Sep 11 13:19:51 2013] [error] [client 127.0.0.1] PHP   2. require_once() /var/www/mantis/view_all_bug_page.php:26, referer: http://mantis.dev/view_all_bug_page.php?page_number=1
+[Wed Sep 11 13:19:51 2013] [error] [client 127.0.0.1] PHP   3. require_once() /var/www/mantis/core.php:219, referer: http://mantis.dev/view_all_bug_page.php?page_number=1
+[Wed Sep 11 13:19:51 2013] [error] [client 127.0.0.1] PHP   4. require_once() /var/www/mantis/core/project_api.php:36, referer: http://mantis.dev/view_all_bug_page.php?page_number=1
+[Wed Sep 11 13:19:51 2013] [error] [client 127.0.0.1] PHP   5. require_once() /var/www/mantis/core/bug_api.php:33, referer: http://mantis.dev/view_all_bug_page.php?page_number=1
+[Wed Sep 11 13:19:51 2013] [error] [client 127.0.0.1] PHP   6. require_once() /var/www/mantis/core/email_api.php:28, referer: http://mantis.dev/view_all_bug_page.php?page_number=1
+[Wed Sep 11 13:19:52 2013] [error] [client 127.0.0.1] PHP Parse error:  syntax error, unexpected end of file in /var/www/mantis/core/filter_api.php on line 3934, referer: http://mantis.dev/view_all_bug_page.php?page_number=1
+[Wed Sep 11 13:19:52 2013] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://mantis.dev/view_all_bug_page.php?page_number=1
+[Wed Sep 11 13:19:52 2013] [error] [client 127.0.0.1] PHP   1. {main}() /var/www/mantis/view_all_bug_page.php:0, referer: http://mantis.dev/view_all_bug_page.php?page_number=1
+[Wed Sep 11 13:19:52 2013] [error] [client 127.0.0.1] PHP   2. require_once() /var/www/mantis/view_all_bug_page.php:26, referer: http://mantis.dev/view_all_bug_page.php?page_number=1
+[Wed Sep 11 13:19:52 2013] [error] [client 127.0.0.1] PHP   3. require_once() /var/www/mantis/core.php:219, referer: http://mantis.dev/view_all_bug_page.php?page_number=1
+[Wed Sep 11 13:19:52 2013] [error] [client 127.0.0.1] PHP   4. require_once() /var/www/mantis/core/project_api.php:36, referer: http://mantis.dev/view_all_bug_page.php?page_number=1
+[Wed Sep 11 13:19:52 2013] [error] [client 127.0.0.1] PHP   5. require_once() /var/www/mantis/core/bug_api.php:33, referer: http://mantis.dev/view_all_bug_page.php?page_number=1
+[Wed Sep 11 13:19:52 2013] [error] [client 127.0.0.1] PHP   6. require_once() /var/www/mantis/core/email_api.php:28, referer: http://mantis.dev/view_all_bug_page.php?page_number=1
+[Wed Sep 11 13:20:04 2013] [error] [client 127.0.0.1] PHP Parse error:  syntax error, unexpected end of file in /var/www/mantis/core/filter_api.php on line 3934, referer: http://mantis.dev/my_view_page.php
+[Wed Sep 11 13:20:04 2013] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://mantis.dev/my_view_page.php
+[Wed Sep 11 13:20:04 2013] [error] [client 127.0.0.1] PHP   1. {main}() /var/www/mantis/my_view_page.php:0, referer: http://mantis.dev/my_view_page.php
+[Wed Sep 11 13:20:04 2013] [error] [client 127.0.0.1] PHP   2. require_once() /var/www/mantis/my_view_page.php:26, referer: http://mantis.dev/my_view_page.php
+[Wed Sep 11 13:20:04 2013] [error] [client 127.0.0.1] PHP   3. require_once() /var/www/mantis/core.php:219, referer: http://mantis.dev/my_view_page.php
+[Wed Sep 11 13:20:04 2013] [error] [client 127.0.0.1] PHP   4. require_once() /var/www/mantis/core/project_api.php:36, referer: http://mantis.dev/my_view_page.php
+[Wed Sep 11 13:20:04 2013] [error] [client 127.0.0.1] PHP   5. require_once() /var/www/mantis/core/bug_api.php:33, referer: http://mantis.dev/my_view_page.php
+[Wed Sep 11 13:20:04 2013] [error] [client 127.0.0.1] PHP   6. require_once() /var/www/mantis/core/email_api.php:28, referer: http://mantis.dev/my_view_page.php
+[Wed Sep 11 14:19:20 2013] [error] [client 127.0.0.1] PHP Parse error:  syntax error, unexpected end of file in /var/www/mantis/core/filter_api.php on line 3934, referer: http://mantis.dev/my_view_page.php
+[Wed Sep 11 14:19:20 2013] [error] [client 127.0.0.1] PHP Stack trace:, referer: http://mantis.dev/my_view_page.php
+[Wed Sep 11 14:19:20 2013] [error] [client 127.0.0.1] PHP   1. {main}() /var/www/mantis/my_view_page.php:0, referer: http://mantis.dev/my_view_page.php
+[Wed Sep 11 14:19:20 2013] [error] [client 127.0.0.1] PHP   2. require_once() /var/www/mantis/my_view_page.php:26, referer: http://mantis.dev/my_view_page.php
+[Wed Sep 11 14:19:20 2013] [error] [client 127.0.0.1] PHP   3. require_once() /var/www/mantis/core.php:219, referer: http://mantis.dev/my_view_page.php
+[Wed Sep 11 14:19:20 2013] [error] [client 127.0.0.1] PHP   4. require_once() /var/www/mantis/core/project_api.php:36, referer: http://mantis.dev/my_view_page.php
+[Wed Sep 11 14:19:20 2013] [error] [client 127.0.0.1] PHP   5. require_once() /var/www/mantis/core/bug_api.php:33, referer: http://mantis.dev/my_view_page.php
+[Wed Sep 11 14:19:20 2013] [error] [client 127.0.0.1] PHP   6. require_once() /var/www/mantis/core/email_api.php:28, referer: http://mantis.dev/my_view_page.php
+[Wed Sep 11 14:32:15 2013] [error] [client 127.0.0.1] File does not exist: /var/www/mantis/favicon.ico
