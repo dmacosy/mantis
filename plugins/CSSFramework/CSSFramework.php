@@ -41,7 +41,7 @@ class CSSFrameworkPlugin extends MantisPlugin{
     function navbar(){
         if( auth_is_user_authenticated() ) {
         echo '
-        <div class="navbar navbar-fixed-top" style="padding : 0px;">
+        <div class="navbar navbar-fixed-top" style="padding : 0 px;">
             <div class="navbar-inner">
                 <div class="container-fluid">
                    

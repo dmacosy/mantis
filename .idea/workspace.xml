@@ -4,8 +4,8 @@
     <list default="true" id="5e374c4c-4bc1-4f98-9a5d-6db77afd229e" name="Default" comment="" />
     <ignored path="mantis.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/a.dummy" changelist="5e374c4c-4bc1-4f98-9a5d-6db77afd229e" time="1378754906905" ignored="false" />
-    <file path="/config_defaults_inc.php" changelist="5e374c4c-4bc1-4f98-9a5d-6db77afd229e" time="1378758562356" ignored="false" />
+    <file path="/a.dummy" changelist="5e374c4c-4bc1-4f98-9a5d-6db77afd229e" time="1378818344562" ignored="false" />
+    <file path="/config_defaults_inc.php" changelist="5e374c4c-4bc1-4f98-9a5d-6db77afd229e" time="1378821149556" ignored="false" />
     <file path="/bug_report_page.php" changelist="5e374c4c-4bc1-4f98-9a5d-6db77afd229e" time="1378747516367" ignored="false" />
     <file path="/my_view_page.php" changelist="5e374c4c-4bc1-4f98-9a5d-6db77afd229e" time="1378751718313" ignored="false" />
     <file path="/config_inc.php" changelist="5e374c4c-4bc1-4f98-9a5d-6db77afd229e" time="1378758506098" ignored="false" />
@@ -28,44 +28,79 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="config_defaults_inc.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="config_defaults_inc.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config_defaults_inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3952" column="16" selection-start="114890" selection-end="114890" vertical-scroll-proportion="-90.03846">
+            <state line="862" column="0" selection-start="26347" selection-end="26347" vertical-scroll-proportion="0.017441861">
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="html_api.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/html_api.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="684" column="50" selection-start="21044" selection-end="21044" vertical-scroll-proportion="0.0">
+              <folding>
+                <marker date="1378821058849" expanded="true" signature="9492:9506" placeholder="{...}" />
+                <marker date="1378821058849" expanded="true" signature="20048:20060" placeholder="..." />
+                <marker date="1378821058849" expanded="true" signature="21248:21319" placeholder="..." />
+                <marker date="1378821058849" expanded="true" signature="21409:21462" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blueacorn_logo.png" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/blueacorn_logo.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mantis_logo.gif" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/mantis_logo.gif">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mantis_logo.png" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/mantis_logo.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="config_inc.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config_inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="1005" selection-end="1005" vertical-scroll-proportion="-16.25">
+            <state line="26" column="0" selection-start="1005" selection-end="1005" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CSSFramework.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="CSSFramework.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plugins/CSSFramework/CSSFramework.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="61" selection-start="1659" selection-end="1659" vertical-scroll-proportion="-0.65464896">
+            <state line="81" column="9" selection-start="2742" selection-end="2743" vertical-scroll-proportion="0.0">
               <folding>
-                <marker date="1378759918765" expanded="true" signature="1650:1664" placeholder="..." />
-                <marker date="1378759918765" expanded="true" signature="1665:1842" placeholder="..." />
-                <marker date="1378759918765" expanded="true" signature="1704:1842" placeholder="..." />
-                <marker date="1378759918765" expanded="true" signature="1750:1842" placeholder="..." />
-                <marker date="1378759918765" expanded="true" signature="1825:1842" placeholder="..." />
-                <marker date="1378759918765" expanded="true" signature="1983:2042" placeholder="..." />
-                <marker date="1378759918765" expanded="true" signature="2208:2274" placeholder="..." />
-                <marker date="1378759918765" expanded="true" signature="2249:2274" placeholder="..." />
-                <marker date="1378759918765" expanded="true" signature="3352:3365" placeholder="..." />
-                <marker date="1378759918765" expanded="true" signature="3508:3521" placeholder="..." />
-                <marker date="1378759918765" expanded="true" signature="10811:10854" placeholder="..." />
-                <marker date="1378759918765" expanded="false" signature="11056:11072" placeholder="..." />
-                <marker date="1378759918765" expanded="true" signature="11073:11086" placeholder="..." />
-                <marker date="1378759918765" expanded="true" signature="13120:13322" placeholder="..." />
-                <marker date="1378759918765" expanded="true" signature="13305:13322" placeholder="..." />
+                <marker date="1378816465039" expanded="true" signature="1650:1665" placeholder="..." />
+                <marker date="1378816465039" expanded="true" signature="1666:1843" placeholder="..." />
+                <marker date="1378816465039" expanded="true" signature="1705:1843" placeholder="..." />
+                <marker date="1378816465039" expanded="true" signature="1751:1843" placeholder="..." />
+                <marker date="1378816465039" expanded="true" signature="1826:1843" placeholder="..." />
+                <marker date="1378816465039" expanded="true" signature="1984:2043" placeholder="..." />
+                <marker date="1378816465039" expanded="true" signature="2209:2275" placeholder="..." />
+                <marker date="1378816465039" expanded="true" signature="2250:2275" placeholder="..." />
+                <marker date="1378816465039" expanded="true" signature="3353:3366" placeholder="..." />
+                <marker date="1378816465039" expanded="true" signature="3509:3522" placeholder="..." />
+                <marker date="1378816465039" expanded="true" signature="10818:10861" placeholder="..." />
+                <marker date="1378816465039" expanded="false" signature="11063:11079" placeholder="..." />
+                <marker date="1378816465039" expanded="true" signature="11080:11093" placeholder="..." />
+                <marker date="1378816465039" expanded="true" signature="13127:13329" placeholder="..." />
+                <marker date="1378816465039" expanded="true" signature="13312:13329" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -81,7 +116,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/core/html_api.php" />
         <option value="$PROJECT_DIR$/bug_update_advanced_page.php" />
         <option value="$PROJECT_DIR$/bug_report_page.php" />
         <option value="$PROJECT_DIR$/bug_report.php" />
@@ -91,9 +125,10 @@
         <option value="$PROJECT_DIR$/login_page.php" />
         <option value="$PROJECT_DIR$/lost_pwd_page.php" />
         <option value="$PROJECT_DIR$/core/filter_api.php" />
-        <option value="$PROJECT_DIR$/config_defaults_inc.php" />
         <option value="$PROJECT_DIR$/config_inc.php" />
         <option value="$PROJECT_DIR$/plugins/CSSFramework/CSSFramework.php" />
+        <option value="$PROJECT_DIR$/core/html_api.php" />
+        <option value="$PROJECT_DIR$/config_defaults_inc.php" />
       </list>
     </option>
   </component>
@@ -201,6 +236,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mantis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mantis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -216,6 +265,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$/plugins" />
     </key>
   </component>
@@ -244,10 +294,9 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32901832" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15828878" sideWeight="0.67098165" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16203208" sideWeight="0.67170626" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="MagicentoScripts" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -257,6 +306,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32829374" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -323,116 +373,111 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bug_view_page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_view_page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="28" selection-start="2594" selection-end="2595" vertical-scroll-proportion="-3.86">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/access.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="141" column="49" selection-start="38721" selection-end="38721" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="141" column="49" selection-start="38721" selection-end="38721" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/view_all_inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="48" selection-start="2377" selection-end="2391" vertical-scroll-proportion="0.5316901">
-          <folding />
-        </state>
+        <state line="79" column="48" selection-start="2377" selection-end="2391" vertical-scroll-proportion="0.5316901" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/manage_tags_page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="100" column="5" selection-start="2638" selection-end="2638" vertical-scroll-proportion="-2.1426055">
-          <folding />
-        </state>
+        <state line="100" column="5" selection-start="2638" selection-end="2638" vertical-scroll-proportion="-2.1426055" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config_filter_defaults_inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="61" selection-start="4919" selection-end="4919" vertical-scroll-proportion="0.8679578">
-          <folding />
-        </state>
+        <state line="94" column="61" selection-start="4919" selection-end="4919" vertical-scroll-proportion="0.8679578" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/my_view_inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="31" selection-start="2284" selection-end="2284" vertical-scroll-proportion="0.7297297">
-          <folding />
-        </state>
+        <state line="79" column="31" selection-start="2284" selection-end="2284" vertical-scroll-proportion="0.7297297" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/plugins/jQuery/files/jQuery.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/manage_user_page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="138" column="12" selection-start="4321" selection-end="4321" vertical-scroll-proportion="0.33274648">
-          <folding />
-        </state>
+        <state line="138" column="12" selection-start="4321" selection-end="4321" vertical-scroll-proportion="0.33274648" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/filter_api.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2535" column="0" selection-start="93808" selection-end="93808" vertical-scroll-proportion="63.162163">
-          <folding />
-        </state>
+        <state line="2535" column="0" selection-start="93808" selection-end="93808" vertical-scroll-proportion="63.162163" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/plugins/MantisCoreFormatting/MantisCoreFormatting.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/html_api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="684" column="50" selection-start="21044" selection-end="21044" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1378821058849" expanded="true" signature="9492:9506" placeholder="{...}" />
+            <marker date="1378821058849" expanded="true" signature="20048:20060" placeholder="..." />
+            <marker date="1378821058849" expanded="true" signature="21248:21319" placeholder="..." />
+            <marker date="1378821058849" expanded="true" signature="21409:21462" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config_defaults_inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3952" column="16" selection-start="114890" selection-end="114890" vertical-scroll-proportion="-90.03846">
+        <state line="862" column="0" selection-start="26347" selection-end="26347" vertical-scroll-proportion="0.017441861">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/images/blueacorn_logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/mantis_logo.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/mantis_logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config_inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="1005" selection-end="1005" vertical-scroll-proportion="-16.25">
+        <state line="26" column="0" selection-start="1005" selection-end="1005" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/plugins/CSSFramework/CSSFramework.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="61" selection-start="1659" selection-end="1659" vertical-scroll-proportion="-0.65464896">
+        <state line="81" column="9" selection-start="2742" selection-end="2743" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1378759918765" expanded="true" signature="1650:1664" placeholder="..." />
-            <marker date="1378759918765" expanded="true" signature="1665:1842" placeholder="..." />
-            <marker date="1378759918765" expanded="true" signature="1704:1842" placeholder="..." />
-            <marker date="1378759918765" expanded="true" signature="1750:1842" placeholder="..." />
-            <marker date="1378759918765" expanded="true" signature="1825:1842" placeholder="..." />
-            <marker date="1378759918765" expanded="true" signature="1983:2042" placeholder="..." />
-            <marker date="1378759918765" expanded="true" signature="2208:2274" placeholder="..." />
-            <marker date="1378759918765" expanded="true" signature="2249:2274" placeholder="..." />
-            <marker date="1378759918765" expanded="true" signature="3352:3365" placeholder="..." />
-            <marker date="1378759918765" expanded="true" signature="3508:3521" placeholder="..." />
-            <marker date="1378759918765" expanded="true" signature="10811:10854" placeholder="..." />
-            <marker date="1378759918765" expanded="false" signature="11056:11072" placeholder="..." />
-            <marker date="1378759918765" expanded="true" signature="11073:11086" placeholder="..." />
-            <marker date="1378759918765" expanded="true" signature="13120:13322" placeholder="..." />
-            <marker date="1378759918765" expanded="true" signature="13305:13322" placeholder="..." />
+            <marker date="1378816465039" expanded="true" signature="1650:1665" placeholder="..." />
+            <marker date="1378816465039" expanded="true" signature="1666:1843" placeholder="..." />
+            <marker date="1378816465039" expanded="true" signature="1705:1843" placeholder="..." />
+            <marker date="1378816465039" expanded="true" signature="1751:1843" placeholder="..." />
+            <marker date="1378816465039" expanded="true" signature="1826:1843" placeholder="..." />
+            <marker date="1378816465039" expanded="true" signature="1984:2043" placeholder="..." />
+            <marker date="1378816465039" expanded="true" signature="2209:2275" placeholder="..." />
+            <marker date="1378816465039" expanded="true" signature="2250:2275" placeholder="..." />
+            <marker date="1378816465039" expanded="true" signature="3353:3366" placeholder="..." />
+            <marker date="1378816465039" expanded="true" signature="3509:3522" placeholder="..." />
+            <marker date="1378816465039" expanded="true" signature="10818:10861" placeholder="..." />
+            <marker date="1378816465039" expanded="false" signature="11063:11079" placeholder="..." />
+            <marker date="1378816465039" expanded="true" signature="11080:11093" placeholder="..." />
+            <marker date="1378816465039" expanded="true" signature="13127:13329" placeholder="..." />
+            <marker date="1378816465039" expanded="true" signature="13312:13329" placeholder="..." />
           </folding>
         </state>
       </provider>

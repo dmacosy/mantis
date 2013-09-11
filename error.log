@@ -28,3 +28,5 @@
 [Mon Sep 09 16:41:14 2013] [error] [client 127.0.0.1] File does not exist: /var/www/mantis/favicon.ico
 [Mon Sep 09 16:41:14 2013] [error] [client 127.0.0.1] File does not exist: /var/www/mantis/favicon.ico
 [Mon Sep 09 16:47:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/mantis/favicon.ico
+[Tue Sep 10 09:12:51 2013] [error] [client 127.0.0.1] File does not exist: /var/www/mantis/images/blueacorn_logo.png  border=, referer: http://mantis.dev/my_view_page.php
+[Tue Sep 10 09:13:01 2013] [error] [client 127.0.0.1] File does not exist: /var/www/mantis/images/blueacorn_logo.png alt=, referer: http://mantis.dev/my_view_page.php

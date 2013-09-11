@@ -749,7 +749,7 @@ $g_favicon_image		= 'images/favicon.ico';
  * Logo
  * @global string $g_logo_image
  */
-$g_logo_image			= 'images/mantis_logo.png';
+$g_logo_image			= '/images/blueacorn_logo.png';
 
 /**
  * Logo URL link
@@ -840,7 +840,7 @@ $g_severity_significant_threshold = MAJOR;
  * @global array $g_view_issues_page_columns
  */
 //$g_view_issues_page_columns = array ( 'selection', 'edit', 'priority', 'id', 'sponsorship_total', 'bugnotes_count', 'attachment_count', 'category_id', 'severity', 'status', 'last_updated', 'summary' );
-$g_view_issues_page_columns = array ( 'selection', 'id', 'status', 'last_updated', 'summary','attachment_count' );
+$g_view_issues_page_columns = array ( 'selection', 'id', 'status', 'summary','attachment_count' );
 
 
 /**
@@ -850,7 +850,7 @@ $g_view_issues_page_columns = array ( 'selection', 'id', 'status', 'last_updated
  * @global array $g_print_issues_page_columns
  */
 //$g_print_issues_page_columns = array ( 'selection', 'priority', 'id', 'sponsorship_total', 'bugnotes_count', 'attachment_count', 'category_id', 'severity', 'status', 'last_updated', 'summary' );
-$g_print_issues_page_columns = array ( 'selection', 'id', 'status', 'last_updated', 'summary','attachment_count' );
+$g_print_issues_page_columns = array ( 'selection', 'id', 'status', 'summary','attachment_count' );
 
 /**
  * The default columns to be included in the CSV export.
@@ -859,7 +859,7 @@ $g_print_issues_page_columns = array ( 'selection', 'id', 'status', 'last_update
  * @global array $g_csv_columns
  */
 //$g_csv_columns = array ( 'id', 'project_id', 'reporter_id', 'handler_id', 'priority', 'severity', 'reproducibility', 'version', 'projection', 'category_id', 'date_submitted', 'eta', 'os', 'os_build', 'platform', 'view_state', 'last_updated', 'summary', 'status', 'resolution', 'fixed_in_version' );
-$g_csv_columns = array ('id', 'project_id', 'status', 'date_submitted','last_updated', 'view_state', 'summary', 'resolution' );
+$g_csv_columns = array ('id', 'project_id', 'status', 'date_submitted', 'view_state', 'summary');
 
 /**
  * The default columns to be included in the Excel export.
@@ -868,7 +868,7 @@ $g_csv_columns = array ('id', 'project_id', 'status', 'date_submitted','last_upd
  * @global array $g_excel_columns
  */
 //$g_excel_columns = array ( 'id', 'project_id', 'reporter_id', 'handler_id', 'priority', 'severity', 'reproducibility', 'version', 'projection', 'category_id', 'date_submitted', 'eta', 'os', 'os_build', 'platform', 'view_state', 'last_updated', 'summary', 'status', 'resolution', 'fixed_in_version' );
-$g_excel_columns = array ('id', 'project_id', 'status', 'date_submitted','last_updated', 'view_state', 'summary', 'resolution' );
+$g_excel_columns = array ('id', 'project_id', 'status', 'date_submitted', 'view_state', 'summary');
 
 /**
  * show projects when in All Projects mode
@@ -2073,14 +2073,14 @@ $g_bug_view_page_fields = array (
 //		'category_id',
     'view_state',
     'date_submitted',
-    'last_updated',
+//    'last_updated',
 //		'reporter',
 //		'handler',
 //		'priority',
 //		'severity',
 //		'reproducibility',
     'status',
-    'resolution',
+//    'resolution',
 //		'projection',
 //		'eta',
 //		'platform',
@@ -2109,14 +2109,14 @@ $g_bug_print_page_fields = array (
 //		'category_id',
     'view_state',
     'date_submitted',
-    'last_updated',
+//    'last_updated',
 //		'reporter',
 //		'handler',
 //		'priority',
 //		'severity',
 //		'reproducibility',
     'status',
-    'resolution',
+//    'resolution',
 //		'projection',
 //		'eta',
 //		'platform',
@@ -2149,14 +2149,14 @@ $g_bug_update_page_fields = array (
 //		'category_id',
     'view_state',
     'date_submitted',
-    'last_updated',
+//    'last_updated',
 //		'reporter',
 //		'handler',
 //		'priority',
 //		'severity',
 //		'reproducibility',
     'status',
-    'resolution',
+//    'resolution',
 //		'projection',
 //		'eta',
 //		'platform',
@@ -2188,14 +2188,14 @@ $g_bug_change_status_page_fields = array (
 //		'category_id',
     'view_state',
     'date_submitted',
-    'last_updated',
+//    'last_updated',
 //		'reporter',
 //		'handler',
 //		'priority',
 //		'severity',
 //		'reproducibility',
     'status',
-    'resolution',
+//    'resolution',
 //		'projection',
 //		'eta',
 //		'platform',
