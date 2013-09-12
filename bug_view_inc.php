@@ -287,7 +287,7 @@
 		echo '<tr>';
 		echo '<td class="category" width="15%">', $tpl_show_id ? lang_get( 'id' ) : '', '</td>';
 		echo '<td class="category" width="20%">', $tpl_show_project ? lang_get( 'email_project' ) : '', '</td>';
-		//echo '<td class="category" width="15%">', $tpl_show_category ? lang_get( 'category' ) : '', '</td>';
+		echo '<td class="category" width="15%">', $tpl_show_category ? lang_get( 'category' ) : '', '</td>';
 		echo '<td class="category" width="15%">', $tpl_show_view_state ? lang_get( 'view_status' ) : '', '</td>';
 		echo '<td class="category" width="15%">', $tpl_show_date_submitted ? lang_get( 'date_submitted' ) : '', '</td>';
 		echo '<td class="category" width="20%">', $tpl_show_last_updated ? lang_get( 'last_update' ) : '','</td>';
@@ -302,7 +302,7 @@
 		echo '<td>', $tpl_project_name, '</td>';
 
 		# Category
-		//echo '<td>', $tpl_category, '</td>';
+		echo '<td>', $tpl_category, '</td>';
 
 		# View Status
 		echo '<td>', $tpl_bug_view_state_enum, '</td>';

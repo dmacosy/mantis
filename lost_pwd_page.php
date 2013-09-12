@@ -106,7 +106,7 @@
 	echo '<br /><div align="center">';
 	print_login_link();
 	echo '&#160;';
-//	print_signup_link();
+	print_signup_link();
 	echo '</div>';
 
 	if ( ON == config_get( 'use_javascript' ) ) {

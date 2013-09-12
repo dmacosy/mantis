@@ -2080,7 +2080,7 @@ $g_bug_view_page_fields = array (
 //		'severity',
 //		'reproducibility',
     'status',
-//    'resolution',
+    'resolution',
 //		'projection',
 //		'eta',
 //		'platform',

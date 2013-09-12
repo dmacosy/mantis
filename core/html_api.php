@@ -681,8 +681,7 @@ function html_footer( $p_file = null ) {
 	# We don't have a button anymore, so for now we will only show the resized version of the logo when not on login page.
 	if ( !is_page_name( 'login_page' ) ) {
 		echo '<div align="right">';
-//		echo '<a href="http://www.mantisbt.org" title="Free Web Based Bug Tracker"><img src="' . helper_mantis_url( 'images/mantis_logo.png' ) . '" width="145" height="50" alt="Powered by Mantis Bugtracker" border="0" /></a>';
-        echo '<a href="http://www.blueacorn.com/" ><img src="' . helper_mantis_url( 'images/blueacorn_logo.png' ) . '" width="145" height="100"  border="0" /></a>';
+		echo '<a href="http://www.mantisbt.org" title="Free Web Based Bug Tracker"><img src="' . helper_mantis_url( 'images/mantis_logo.png' ) . '" width="145" height="50" alt="Powered by Mantis Bugtracker" border="0" /></a>';
 		echo '</div>', "\n";
 	}
 
@@ -743,21 +742,21 @@ function print_menu() {
 		$t_menu_options = array();
 
 		# Main Page
-//		$t_menu_options[] = '<a href="' . helper_mantis_url( 'main_page.php' ) . '">' . lang_get( 'main_link' ) . '</a>';
-//
-//		# Plugin / Event added options
-//		$t_event_menu_options = event_signal( 'EVENT_MENU_MAIN_FRONT' );
-//		foreach( $t_event_menu_options as $t_plugin => $t_plugin_menu_options ) {
-//			foreach( $t_plugin_menu_options as $t_callback => $t_callback_menu_options ) {
-//				if( is_array( $t_callback_menu_options ) ) {
-//					$t_menu_options = array_merge( $t_menu_options, $t_callback_menu_options );
-//				} else {
-//					if ( !is_null( $t_callback_menu_options ) ) {
-//						$t_menu_options[] = $t_callback_menu_options;
-//					}
-//				}
-//			}
-//		}
+		$t_menu_options[] = '<a href="' . helper_mantis_url( 'main_page.php' ) . '">' . lang_get( 'main_link' ) . '</a>';
+
+		# Plugin / Event added options
+		$t_event_menu_options = event_signal( 'EVENT_MENU_MAIN_FRONT' );
+		foreach( $t_event_menu_options as $t_plugin => $t_plugin_menu_options ) {
+			foreach( $t_plugin_menu_options as $t_callback => $t_callback_menu_options ) {
+				if( is_array( $t_callback_menu_options ) ) {
+					$t_menu_options = array_merge( $t_menu_options, $t_callback_menu_options );
+				} else {
+					if ( !is_null( $t_callback_menu_options ) ) {
+						$t_menu_options[] = $t_callback_menu_options;
+					}
+				}
+			}
+		}
 
 		# My View
 		$t_menu_options[] = '<a href="' . helper_mantis_url( 'my_view_page.php">' ) . lang_get( 'my_view_link' ) . '</a>';
@@ -771,14 +770,14 @@ function print_menu() {
 		}
 
 		# Changelog Page
-//		if( access_has_project_level( config_get( 'view_changelog_threshold' ) ) ) {
-//			$t_menu_options[] = '<a href="' . helper_mantis_url( 'changelog_page.php">' ) . lang_get( 'changelog_link' ) . '</a>';
-//		}
-//
-//		# Roadmap Page
-//		if( access_has_project_level( config_get( 'roadmap_view_threshold' ) ) ) {
-//			$t_menu_options[] = '<a href="' . helper_mantis_url( 'roadmap_page.php">' ) . lang_get( 'roadmap_link' ) . '</a>';
-//		}
+		if( access_has_project_level( config_get( 'view_changelog_threshold' ) ) ) {
+			$t_menu_options[] = '<a href="' . helper_mantis_url( 'changelog_page.php">' ) . lang_get( 'changelog_link' ) . '</a>';
+		}
+
+		# Roadmap Page
+		if( access_has_project_level( config_get( 'roadmap_view_threshold' ) ) ) {
+			$t_menu_options[] = '<a href="' . helper_mantis_url( 'roadmap_page.php">' ) . lang_get( 'roadmap_link' ) . '</a>';
+		}
 
 		# Summary Page
 		if( access_has_project_level( config_get( 'view_summary_threshold' ) ) ) {

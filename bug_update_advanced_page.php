@@ -588,22 +588,22 @@ if ( $tpl_show_description ) {
 }
 
 # Steps to Reproduce
-//if ( $tpl_show_steps_to_reproduce ) {
-//	echo '<tr ', helper_alternate_class(), '>';
-//	echo '<td class="category">', lang_get( 'steps_to_reproduce' ), '</td>';
-//	echo '<td colspan="5">';
-//	echo '<textarea ', helper_get_tab_index(), ' cols="80" rows="10" name="steps_to_reproduce">', $tpl_steps_to_reproduce_textarea, '</textarea>';
-//	echo '</td></tr>';
-//}
+if ( $tpl_show_steps_to_reproduce ) {
+	echo '<tr ', helper_alternate_class(), '>';
+	echo '<td class="category">', lang_get( 'steps_to_reproduce' ), '</td>';
+	echo '<td colspan="5">';
+	echo '<textarea ', helper_get_tab_index(), ' cols="80" rows="10" name="steps_to_reproduce">', $tpl_steps_to_reproduce_textarea, '</textarea>';
+	echo '</td></tr>';
+}
 
 # Additional Information
-//if ( $tpl_show_additional_information ) {
-//	echo '<tr ', helper_alternate_class(), '>';
-//	echo '<td class="category">', lang_get( 'additional_information' ), '</td>';
-//	echo '<td colspan="5">';
-//	echo '<textarea ', helper_get_tab_index(), ' cols="80" rows="10" name="additional_information">', $tpl_additional_information_textarea, '</textarea>';
-//	echo '</td></tr>';
-//}
+if ( $tpl_show_additional_information ) {
+	echo '<tr ', helper_alternate_class(), '>';
+	echo '<td class="category">', lang_get( 'additional_information' ), '</td>';
+	echo '<td colspan="5">';
+	echo '<textarea ', helper_get_tab_index(), ' cols="80" rows="10" name="additional_information">', $tpl_additional_information_textarea, '</textarea>';
+	echo '</td></tr>';
+}
 
 echo '<tr class="spacer"><td colspan="6"></td></tr>';
 
