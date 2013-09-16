@@ -126,7 +126,7 @@
 			echo " ($v_start - $v_end / $t_bug_count)";
 		?> </span>
 
-		<span class="floatleft small"> <?php
+		<span class="floatright small"> <?php
 				# -- Print and Export links --
 				echo '&#160;';
 				print_bracket_link( 'print_all_bug_page.php', lang_get( 'print_all_bug_page_link' ) );

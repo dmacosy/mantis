@@ -1007,7 +1007,7 @@ $s_email_user_updated_msg = 'Your account has been updated by an administrator. 
 
 # menu_inc.php
 $s_main_link = 'Main';
-$s_view_bugs_link = 'View Issues';
+$s_view_bugs_link = 'Search Questions';
 $s_report_bug_link = 'Report Issue';
 $s_changelog_link = 'Change Log';
 $s_roadmap_link = 'Roadmap';
@@ -1018,7 +1018,7 @@ $s_manage_link = 'Manage';
 $s_edit_news_link = 'Edit News';
 $s_docs_link = 'Docs';
 $s_logout_link = 'Logout';
-$s_my_view_link = 'My View';
+$s_my_view_link = 'Home';
 
 # meta_inc.php
 
@@ -1409,7 +1409,7 @@ $s_checkin = 'Checkin';
 $s_perm_rpt_capability = 'Capability';
 $s_view = 'View';
 $s_issues = 'Issues';
-$s_report_issue = 'Report an issue';
+$s_report_issue = 'Ask a Question';
 $s_update_issue = 'Update an issue';
 $s_monitor_issue = 'Monitor an issue';
 $s_handle_issue = 'Handle an issue';

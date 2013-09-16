@@ -67,3 +67,7 @@
 [Wed Sep 11 14:19:20 2013] [error] [client 127.0.0.1] PHP   5. require_once() /var/www/mantis/core/bug_api.php:33, referer: http://mantis.dev/my_view_page.php
 [Wed Sep 11 14:19:20 2013] [error] [client 127.0.0.1] PHP   6. require_once() /var/www/mantis/core/email_api.php:28, referer: http://mantis.dev/my_view_page.php
 [Wed Sep 11 14:32:15 2013] [error] [client 127.0.0.1] File does not exist: /var/www/mantis/favicon.ico
+[Sun Sep 15 19:13:26 2013] [error] [client 127.0.0.1] File does not exist: /var/www/mantis/favicon.ico
+[Sun Sep 15 19:13:42 2013] [error] [client 127.0.0.1] File does not exist: /var/www/mantis/favicon.ico
+[Sun Sep 15 19:13:58 2013] [error] [client 127.0.0.1] File does not exist: /var/www/mantis/favicon.ico
+[Sun Sep 15 19:18:45 2013] [error] [client 127.0.0.1] File does not exist: /var/www/mantis/favicon.ico

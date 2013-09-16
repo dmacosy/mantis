@@ -696,9 +696,9 @@
 	include( $tpl_mantis_dir . 'bug_sponsorship_list_view_inc.php' );
 
 	# Bug Relationships
-	if ( $tpl_show_relationships_box ) {
-		relationship_view_box ( $tpl_bug->id );
-	}
+//	if ( $tpl_show_relationships_box ) {
+//		relationship_view_box ( $tpl_bug->id );
+//	}
 
 	# File upload box
 	if ( $tpl_show_upload_form ) {
@@ -706,9 +706,9 @@
 	}
 
 	# User list monitoring the bug
-	if ( $tpl_show_monitor_box ) {
-		include( $tpl_mantis_dir . 'bug_monitor_list_view_inc.php' );
-	}
+//	if ( $tpl_show_monitor_box ) {
+//		include( $tpl_mantis_dir . 'bug_monitor_list_view_inc.php' );
+//	}
 
 	# Bugnotes and "Add Note" box
 	if ( 'ASC' == current_user_get_pref( 'bugnote_order' ) ) {
